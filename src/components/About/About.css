@@ -1,0 +1,11 @@
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+}
+.about-img{
+    width: 500px;
+}
+.about-img img{
+    width: 100%;
+}

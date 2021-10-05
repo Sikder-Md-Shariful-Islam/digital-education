@@ -1,0 +1,38 @@
+.body{
+    background-color: blueviolet;
+    padding-bottom: 250px;
+    margin-bottom: 50px;
+    background-image: url('https://thepnr.com/wp-content/uploads/2019/04/artificial-intelligence-confusion-719504626-1068x601.jpg');
+    background-size: cover;
+    text-align: left;
+}
+
+.heading{
+    position: relative;
+    width: 500px;
+    color: white;
+    margin-left: 80px;
+    margin-top: 200px;
+}
+.heading::before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 5em;
+    line-height: 1;
+    top: -50px;
+    left: -80px;
+    content: "\201C";
+    color: white;
+}
+
+.heading::after{
+    font-family: Georgia, serif;
+    position: absolute;
+    float:right;
+    font-size:6em;
+    line-height: 1;
+    right:12;
+    bottom:-0.8em;
+    content: "\201D";
+    color: white;
+}

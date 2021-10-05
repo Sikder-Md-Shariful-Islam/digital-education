@@ -1,0 +1,8 @@
+.error{
+    color: #444444;
+}
+.error h1{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 15%;
+}
